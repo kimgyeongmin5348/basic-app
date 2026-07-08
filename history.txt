@@ -450,3 +450,18 @@
   450  git log --oneline
   451  history
   452  history > history.txt
+  453  git add history.txt 
+  454  git commit -m '코드작성내용들'
+  455  git push
+  456  git push -f origin main
+  457  clear
+  458  echo red > color.txt
+  459  git add color.txt 
+  460  git commit -m 'red 생성'
+  461  git push
+  462  echo green > green.txt
+  463  git add green.txt 
+  464  git commit --amend -m 'amend 방법'
+  465  git log --oneline
+  466  git push -f 
+  467  history > history.txt 
