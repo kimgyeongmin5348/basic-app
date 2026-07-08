@@ -1,0 +1,452 @@
+    1  pwd
+    2  ls
+    3  ls -a
+    4  ls -l
+    5  ls -r
+    6  ls -t
+    7  clear
+    8  pwd
+    9  ls -al
+   10  ls -alt
+   11  clear
+   12  pwd
+   13  cd .
+   14  cd ..
+   15  cd~
+   16  cd ~
+   17  pwd
+   18  cd ..
+   19  pwd
+   20  cd ~
+   21  cd ..
+   22  ls
+   23  ls -alt
+   24  cd ~
+   25  ls -alt
+   26  cd ~
+   27  pwd
+   28  cd .
+   29  pwd
+   30  cd ./Desktop/
+   31  cd~
+   32  cd ~
+   33  cd Desktop/
+   34  pwd
+   35  clear
+   36  pwd
+   37  mkdir color
+   38  pwd
+   39  ls
+   40  rm -r color
+   41  ls
+   42  mkdir color
+   43  rm -r color
+   44  ls
+   45  mkdir color
+   46  ls
+   47  cd color/
+   48  pwd
+   49  touch green.txt
+   50  ls
+   51  rm green.txt
+   52  ls
+   53  vi red.txt
+   54  cat red.txt
+   55  vi red.txt
+   56  vi red.txt
+   57  mv red.txt yellow.txt
+   58  ls
+   59  cat yellow.txt 
+   60  vi yellow.txt 
+   61  cd ..
+   62  ls
+   63  mkdir first
+   64  mv ./color/yellow.txt ./first
+   65  cd first/
+   66  ls
+   67  cd ..
+   68  cd color
+   69  ls
+   70  cdc ..
+   71  cd .
+   72  cd ..
+   73  cd ~
+   74  cd Desktop
+   75  history
+   76  history > data.txt
+   77  rm data.txt
+   78  cd color
+   79  history > data.txt
+   80  cat data.txt 
+   81  clear
+   82  esit
+   83  esit
+   84  exit
+   85  cd desktop
+   86  ls
+   87  mkdir person
+   88  ls
+   89  cd person
+   90  mkdir man
+   91  mkdir woman
+   92  ls
+   93  cd man
+   94  mkdir sun.txt
+   95  ls
+   96  vi sun.txt/
+   97  ls
+   98  vi sun.txt/
+   99  vi sun.txt
+  100  rm sun.txt
+  101  touch sun.txt
+  102  ls
+  103  touch sun.txt
+  104  ls
+  105  vi sun.txt 
+  106  cd ..
+  107  cd man
+  108  cat sun.txt 
+  109  cd ..
+  110  cd man
+  111  mv sun.txt person
+  112  ls
+  113  mv person sun.txt
+  114  ls
+  115  cd ..
+  116  cd man
+  117  mv sun.txt ../person
+  118  ls
+  119  cd person
+  120  cd ..
+  121  ls
+  122  cat person 
+  123  mv person sun.txt
+  124  ls
+  125  cat sun.txt 
+  126  history
+  127  cd ..
+  128  rm person
+  129  ls
+  130  rm person
+  131  rm -rf person
+  132  rm -rf color
+  133  rm -rf fisrt
+  134  rm -rf first
+  135  clear
+  136  mkdir color
+  137  cd color
+  138  mkdir red
+  139  mkdir green
+  140  mkdir blue
+  141  ls
+  142  cd red
+  143  mkdir a.txt
+  144  rm a.txt/
+  145  rm -rf a.txt/
+  146  touch a.txt
+  147  touch b.txt
+  148  ls
+  149  vi a.txt 
+  150  cat a.txt 
+  151  mv a.txt ..
+  152  ls
+  153  cd ..
+  154  ls
+  155  cd red
+  156  mv b.txt green.txt
+  157  ls
+  158  mv green.txt keep.txt
+  159  cd ..
+  160  mv blue/red
+  161  mv blue red
+  162  ls
+  163  rm -rf color
+  164  cd ..
+  165  rm -rf color
+  166  ls
+  167  clear
+  168  mkdir person
+  169  ls
+  170  cd person
+  171  mkdir man
+  172  mkdir woman
+  173  cd man
+  174  touch sun.txt
+  175  vi sun.txt 
+  176  cat sun.txt 
+  177  sun.txt >> sun.txt
+  178  ls
+  179  mv sun.txt ..
+  180  ls
+  181  cd ..
+  182  ls
+  183  cd ..
+  184  rm -rf person
+  185  clear
+  186  mkdir color
+  187  cd color
+  188  mkdir red
+  189  mkdir green
+  190  mkdir blue
+  191  ls
+  192  cd red
+  193  touch a.txt
+  194  touch b.txt
+  195  vi a.txt 
+  196  a.txt >> b.txt
+  197  ls
+  198  a.txt >> b.txt 
+  199  cat a.txt 
+  200  a.txt >> c.txt
+  201  cat c.txt
+  202  rm c.txt 
+  203  mv a.txt green
+  204  mv green a.txt
+  205  mv a.txt ..
+  206  mv a.txt green
+  207  cd ..
+  208  mv a.txt green
+  209  ls
+  210  cd green
+  211  ls
+  212  cat a.txt 
+  213  cd ..
+  214  cd red
+  215  mv b.txt keep.txt
+  216  ls
+  217  cat keep.txt 
+  218  cd ..
+  219  mv blue red
+  220  ls
+  221  cd ..
+  222  rm -rf color
+  223  clear
+  224  mkdir color
+  225  mkdir balam
+  226  cd color
+  227  touch a.tx
+  228  ls
+  229  rm -rf a.tx
+  230  ls
+  231  touch a.txt
+  232  mv a.txt ../balam
+  233  ls
+  234  cd .
+  235  cd..
+  236  cd ..
+  237  cd balam
+  238  ls
+  239  cd ..
+  240  rm -rf color
+  241  rm -rf color
+  242  rm -rf balam
+  243  ls
+  244  clear
+  245  mkdir color
+  246  cd color
+  247  mkdir red
+  248  mkdir green
+  249  mkdir blue
+  250  cd red
+  251  touch a.txt
+  252  touch b.txt
+  253  ls
+  254  mv a.txt green
+  255  mv green a.txt
+  256  mv a.txt ../green
+  257  cd ..
+  258  cd green
+  259  ls
+  260  cd ..
+  261  cd red
+  262  mv b.txt keep.txt
+  263  cd ..
+  264  mv blue red
+  265  rm -rf color
+  266  cd ..
+  267  rm -rf color
+  268  clear
+  269  history >>data.txt
+  270  cat data.txt
+  271  history
+  272  rm data.txt 
+  273  clear
+  274  ls
+  275  mkdir color
+  276  cd color
+  277  ls
+  278  mkdir blue red
+  279  ls
+  280  mv blue green
+  281  ls
+  282  mv green red
+  283  ls red
+  284  mk dir blue
+  285  mkdir blue
+  286  ls
+  287  mv blue a.txt
+  288  ls
+  289  mv a.txt blue
+  290  ls
+  291  cd ..
+  292  rm -rf color
+  293  ls
+  294  clear
+  295  ls
+  296  mkdir edu
+  297  ls
+  298  ls -al
+  299  cd edu
+  300  ls
+  301  ls -al
+  302  git init
+  303  ls -a
+  304  lsit .git
+  305  ls .git
+  306  ls git
+  307  ls .git
+  308  ls
+  309  git status
+  310  cd ..
+  311  cd edu
+  312  ls -al
+  313  git status
+  314  echo 1 > a.txt
+  315  ls
+  316  cat a.txt 
+  317  ls -al
+  318  git status
+  319  git add a.txt
+  320  git status
+  321  git commit -m 'Add a.txt'
+  322  git config --global user.name "kimgyeongmin5348"
+  323  git config --global user.name :kimgyeongmin5348
+  324  git config --global user.email "kimgyeongmin5348@gmail.com"
+  325   git config --global user.name "kimgyeongmin5348"
+  326  git config ls
+  327  git config list
+  328  ls
+  329  git status
+  330  git config --global --list --show-origin
+  331  cat C:/Users/User/.gitconfig
+  332  cat C:/users/user/.gitconfig
+  333  git config --global user.email
+  334  git config --global user.name
+  335  git commit -m 'Add a.txt'
+  336  ls .git
+  337  ls 
+  338  git status
+  339  git log
+  340  git log --oneline
+  341  vi a.txt 
+  342  git status
+  343  git commit -am 'Update a.txt'
+  344  git status
+  345  git log --oneline
+  346  git log
+  347  cat a.txt 
+  348  ls
+  349  echo 2 >> a.txt 
+  350  cat a.txt 
+  351  git diff
+  352  git add a.txt
+  353  git commit -m 'Update a.txt'
+  354  git status
+  355  git log
+  356  echo "3
+  357  4" >> a.txt
+  358  cat a.txt 
+  359  git commit -am'Update a.txt'
+  360  git log --oneline
+  361  git status
+  362  cat a.txt 
+  363  echo <<"5
+  364  6" >> a.txt
+  365  "r
+  366  "gg"g
+  367  7" >> a.txt
+  368  clear
+  369  git clone https://github.com/kimgyeongmin5348/basic-app.git
+  370  ls
+  371  git clone https://github.com/kimgyeongmin5348/basic-app.git .
+  372  ls
+  373  echo 'my house' > house.txt
+  374  ls
+  375  cat house.txt 
+  376  git status
+  377  git add house.txt 
+  378  git commit -m 'Add house.txt'
+  379  git log --oneline
+  380  git push
+  381  git pull
+  382  ls
+  383  cat stu.txt 
+  384  exit
+  385  cd desktop
+  386  cd edu
+  387  echo hello >> stu.txt 
+  388  cat stu.txt 
+  389  git add
+  390  git add stu.txt 
+  391  git commit -m '실험용'
+  392  git push
+  393  exit
+  394  git clone https://github.com/kimgyeongmin5348/basic-app.git
+  395  cd basic-app
+  396  ls -a
+  397  mkdir HI
+  398  ls
+  399  git commit -am '과제'
+  400  git status
+  401  git push
+  402  git log --oneline
+  403  echo "과제제출용' < stu.txt
+  404  '
+  405  "
+  406  ls
+  407  cd HI
+  408  ls
+  409  ls
+  410  echo "과제제출용" < stu.txt
+  411  touch stu.txt
+  412  ls
+  413  vi stu.txt 
+  414  cat stu.txt 
+  415  git commit -am '과제제출'
+  416  git add stu.txt 
+  417  git status
+  418  git commit -m '과제제출'
+  419  git push
+  420  ls
+  421  cd ..
+  422  ls
+  423  cat work.txt 
+  424  mkdir office
+  425  ls office/
+  426  cd office/
+  427  pwd
+  428  echo "교육장에서 작업합니다." > work.txt
+  429  cat work.txt 
+  430  ls 
+  431  git status
+  432  git init
+  433  ls -a
+  434  git status
+  435  git add work.txt 
+  436  git status
+  437  git commit -m '260707'
+  438  git remote add origin https://github.com/kimgyeongmin5348/basic-app.git
+  439  git push -u origin main
+  440  git pull
+  441  ls
+  442  echo '나는개발자입니다' > mydev.txt
+  443  git add
+  444  git add mydev.txt 
+  445  git status
+  446  git commit -m '260708시작'
+  447  git status
+  448  git push
+  449  git commit --amend -m 'Update dev'
+  450  git log --oneline
+  451  history
+  452  history > history.txt
